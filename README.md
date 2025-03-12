@@ -121,6 +121,8 @@ This repository is deployed to GitHub Pages and can be accessed at:
 
 **[https://anandbg.github.io/MSAICourse/](https://anandbg.github.io/MSAICourse/)**
 
+> **Note:** This site was last updated on [Last updated: May 2024]
+
 ## About This Course
 
 Learn the fundamentals of building Generative AI applications with this comprehensive 21-lesson course originally created by Microsoft Cloud Advocates.
