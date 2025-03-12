@@ -114,3 +114,54 @@ Our team produces other courses! Check out:
 - [Mastering GitHub Copilot for AI Paired Programming](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
 - [Mastering GitHub Copilot for C#/.NET Developers](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)
 - [Choose Your Own Copilot Adventure](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)
+
+## GitHub Pages Deployment
+
+This repository is deployed to GitHub Pages and can be accessed at:
+
+**[https://anandbg.github.io/MSAICourse/](https://anandbg.github.io/MSAICourse/)**
+
+## About This Course
+
+Learn the fundamentals of building Generative AI applications with this comprehensive 21-lesson course originally created by Microsoft Cloud Advocates.
+
+Each lesson covers its own topic so you can start wherever you like! Lessons are labeled either "Learn" lessons explaining a Generative AI concept or "Build" lessons that explain a concept and provide code examples in both **Python** and **TypeScript** when possible.
+
+## What You Need
+
+### To run the code of this course, you can use either:
+ - [Azure OpenAI Service](https://azure.microsoft.com/products/ai-services/openai-service) - **Lessons:** "aoai-assignment"
+ - [GitHub Marketplace Model Catalog](https://github.com/marketplace/models) - **Lessons:** "githubmodels"
+ - [OpenAI API](https://platform.openai.com/docs/quickstart?context=python) - **Lessons:** "oai-assignment"
+
+## Local Development Setup
+
+### Install Dependencies
+
+```bash
+# Install Python dependencies
+python -m pip install -r requirements.txt
+
+# Install Node.js dependencies
+npm install
+```
+
+### Environment Variables
+
+Create a `.env` file from the provided template:
+
+```bash
+cp .env.copy .env
+```
+
+Then edit the `.env` file to add your API keys.
+
+### Run Locally
+
+To run the course website locally:
+
+```bash
+npx docsify serve
+```
+
+Then navigate to http://localhost:3000 in your browser.
