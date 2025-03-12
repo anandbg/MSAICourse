@@ -1,0 +1,12 @@
+theme: jekyll-theme-cayman
+title: Generative AI for Beginners
+description: 21 Comprehensive lessons teaching you everything you need to know to start building Generative AI applications
+plugins:
+  - jekyll-redirect-from
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - README.md
+  - "*/README.md" 
